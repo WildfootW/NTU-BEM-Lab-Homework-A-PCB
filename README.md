@@ -13,7 +13,8 @@
 * DHT22
     * [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf)
     * AD Library from SnapEDA
-* VT90N1 (Light Dependent Resistor)
+* [Common Light Sensors](https://www.intorobotics.com/common-budgeted-arduino-light-sensors/)
+* ~~VT90N1 (Light Dependent Resistor)~~
     * [Datasheet](https://datasheet.ciiva.com/1249/919043-1249344.pdf?src-supplier=Element14)
     * AD Library from Manufacturer Part Search
-    * [Common Light Sensors](https://www.intorobotics.com/common-budgeted-arduino-light-sensors/)
+* TSL235R
