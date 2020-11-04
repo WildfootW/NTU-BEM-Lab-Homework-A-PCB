@@ -12,16 +12,18 @@
     * AD Library from Manufacturer Part Search
 * DHT22
     * [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf)
-    * AD Library from SnapEDA
+    * [AD Library from SnapEDA](https://www.snapeda.com/parts/DHT22/Aosong%20Electronics/view-part/?ref=search&amp;t=DHT22&amp;company=&amp;welcome=home)
 * [Common Light Sensors](https://www.intorobotics.com/common-budgeted-arduino-light-sensors/)
 * ~~VT90N1 (Light Dependent Resistor)~~
     * [Datasheet](https://datasheet.ciiva.com/1249/919043-1249344.pdf?src-supplier=Element14)
     * AD Library from Manufacturer Part Search
 * TSL235R
+    * [Datasheet](https://datasheet.ciiva.com/1176/323585-1176657.pdf?src-supplier=Newark)
 
 # Wire
 ## ATmega328P
-* [Electrical Engineering - What is the minimal set of parts for a circut with this AVR microcontroller?](https://electronics.stackexchange.com/questions/53713/what-is-the-minimal-set-of-parts-for-a-circut-with-this-avr-microcontroller)
+* [AVR® Microcontroller Hardware Design Considerations](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en591472)
+    * [Electrical Engineering - What is the minimal set of parts for a circut with this AVR microcontroller?](https://electronics.stackexchange.com/questions/53713/what-is-the-minimal-set-of-parts-for-a-circut-with-this-avr-microcontroller)
 * Crystal Oscaillator 16MHz
     * Table 8.3 - 12-22 pF
 * debugWIRE
