@@ -22,8 +22,22 @@
 
 # Wire
 ## ATmega328P
+* [Electrical Engineering - What is the minimal set of parts for a circut with this AVR microcontroller?](https://electronics.stackexchange.com/questions/53713/what-is-the-minimal-set-of-parts-for-a-circut-with-this-avr-microcontroller)
 * [AVR® Microcontroller Hardware Design Considerations](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en591472)
-    * [Electrical Engineering - What is the minimal set of parts for a circut with this AVR microcontroller?](https://electronics.stackexchange.com/questions/53713/what-is-the-minimal-set-of-parts-for-a-circut-with-this-avr-microcontroller)
+    * 2.1 Ditital Supply
+        * Put decoupling capacitors near IC
+        * For devices with multiple pairs of power and ground pins, it is essential that there is a decoupling capacitor for every pair of pins.
+    * 2.2 Analog Supply
+        * Avcc ensures the analog circuits are less prone to the digital noise
+        * AREF must also be decoupled. The typical value is 100 nF
+        * If a separate AGND is present, the ground should be separated from digital ground. (analog & digital grounds are connected only at power supply GND)
+    * 3 Connection of RESET Pin on AVR Devices
+        * The recommended pull-up resistor value is 4.7 kΩ (For DebugWIRE to function properly, the pull-up must not be less than 10 kΩ)
+        * Using an extra capacitor is an additional protection. (cannot be used when DebugWIRE or PDI is used)
+        * Recommend add an ESD protection diode (cannot work with HVPP). Alternatively, a Zener diode can be used to limit the Reset voltage relative to GND (highly recommended in noisy environments).
+    * 3.1 External RESET Switch
+        * It is important to add a series resistance (330R)
+
 * Crystal Oscaillator 16MHz
     * Table 8.3 - 12-22 pF
 * debugWIRE
