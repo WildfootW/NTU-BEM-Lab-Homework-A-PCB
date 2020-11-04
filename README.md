@@ -18,3 +18,11 @@
     * [Datasheet](https://datasheet.ciiva.com/1249/919043-1249344.pdf?src-supplier=Element14)
     * AD Library from Manufacturer Part Search
 * TSL235R
+
+# Wire
+## ATmega328P
+* [Electrical Engineering - What is the minimal set of parts for a circut with this AVR microcontroller?](https://electronics.stackexchange.com/questions/53713/what-is-the-minimal-set-of-parts-for-a-circut-with-this-avr-microcontroller)
+* Crystal Oscaillator 16MHz
+    * Table 8.3 - 12-22 pF
+* debugWIRE
+* Serial Interface
