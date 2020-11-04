@@ -19,6 +19,7 @@
     * AD Library from Manufacturer Part Search
 * TSL235R
     * [Datasheet](https://datasheet.ciiva.com/1176/323585-1176657.pdf?src-supplier=Newark)
+    * AD Library from Manufacturer Part Search
 
 # Wire
 ## ATmega328P
