@@ -10,6 +10,7 @@
 * DS18B20
     * [Datasheet](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf)
     * AD Library from Manufacturer Part Search
+    * [1-Wire Hub](http://pvlng.com/1-Wire_Hub)
 * DHT22
     * [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf)
     * [AD Library from SnapEDA](https://www.snapeda.com/parts/DHT22/Aosong%20Electronics/view-part/?ref=search&amp;t=DHT22&amp;company=&amp;welcome=home)
