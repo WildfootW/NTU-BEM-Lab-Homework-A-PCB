@@ -1,5 +1,14 @@
 # NTU-BIME-INSECT-Lab-PCB-Homework
 
+## Todoist
+* [ ] Replace Power Connector
+* [ ] Replace all SMT to 0603
+* [ ] Decoupling Capacitor
+* [ ] XBee
+* [ ] Buck Converter
+* [ ] Light Sensor
+* [ ] Add Border on PCB
+
 ## Componenet
 * ATmega328P
     * [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf)
@@ -20,9 +29,12 @@
 * TSL235R
     * [Datasheet](https://datasheet.ciiva.com/1176/323585-1176657.pdf?src-supplier=Newark)
     * AD Library from Manufacturer Part Search
+* LM2576
+    * [Datasheet](https://datasheet.ciiva.com/6597/lm2576hv-6597211.pdf?src-supplier=Digi-Key)
+    * AD Library from Manufacturer Part Search
 
-# Wire
-## ATmega328P
+## Wire Reference
+### ATmega328P
 * [Electrical Engineering - What is the minimal set of parts for a circut with this AVR microcontroller?](https://electronics.stackexchange.com/questions/53713/what-is-the-minimal-set-of-parts-for-a-circut-with-this-avr-microcontroller)
 * [AVR® Microcontroller Hardware Design Considerations](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en591472)
     * 2.1 Ditital Supply
@@ -43,3 +55,6 @@
     * Table 8.3 - 12-22 pF
 * debugWIRE
 * Serial Interface
+### SMD / SMT
+* [Difference between 1206, 0805 and 0603 SMD resistor](https://electronics.stackexchange.com/questions/375637/difference-between-1206-0805-and-0603-smd-resistor)
+    * > If you need to hand solder them, I suggest not going too small,e specially if you do not have any experience. 0603 should be fine for almost everyone, 0805 even more so, 1206 is a huge beast you can solder with your hands tied and your eyes closed.
