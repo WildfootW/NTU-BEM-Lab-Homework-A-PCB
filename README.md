@@ -1,11 +1,11 @@
 # NTU-BIME-INSECT-Lab-PCB-Homework
 
 ## Todoist
-* [ ] Replace Power Connector
+* [x] Replace Power Connector
 * [ ] Replace all SMT to 0603
 * [ ] Decoupling Capacitor
 * [ ] XBee
-* [ ] Buck Converter
+* [ ] Buck Converter ~~LM2576~~
 * [ ] Light Sensor
 * [ ] Add Border on PCB
 
@@ -30,9 +30,10 @@
 * TSL235R
     * [Datasheet](https://datasheet.ciiva.com/1176/323585-1176657.pdf?src-supplier=Newark)
     * AD Library from Manufacturer Part Search
-* LM2576
+* ~~LM2576~~
     * [Datasheet](https://datasheet.ciiva.com/6597/lm2576hv-6597211.pdf?src-supplier=Digi-Key)
     * AD Library from Manufacturer Part Search
+    * ELECTRICAL CHARACTERISTICS LM2576-3.3 - 6V ≤ VIN ≤ 40V, 0.5A ≤ ILOAD ≤ 3A
 
 ## Schematic Reference
 ### ATmega328P
