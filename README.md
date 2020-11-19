@@ -5,7 +5,7 @@
 * [ ] Replace all SMT to 0603
 * [ ] Decoupling Capacitor
 * [ ] XBee
-* [ ] Buck Converter ~~LM2576~~
+* [x] Buck Converter ~~LM2576~~ LM2596
 * [ ] Light Sensor
 * [ ] Add Border on PCB
 
@@ -34,6 +34,8 @@
     * [Datasheet](https://datasheet.ciiva.com/6597/lm2576hv-6597211.pdf?src-supplier=Digi-Key)
     * AD Library from Manufacturer Part Search
     * ELECTRICAL CHARACTERISTICS LM2576-3.3 - 6V ≤ VIN ≤ 40V, 0.5A ≤ ILOAD ≤ 3A
+* LM2596
+    * [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf)
 
 ## Schematic Reference
 ### ATmega328P
