@@ -2,8 +2,9 @@
 
 ## Todoist
 * [x] Replace Power Connector
-* [ ] Replace all SMT to 0603
-* [ ] Decoupling Capacitor
+* [x] Replace all SMT to 0603
+* [x] Digital Vcc Decoupling Capacitor
+* [ ] Analog Avcc Decoupling Capacitor
 * [ ] XBee
 * [x] Buck Converter ~~LM2576~~ LM2596
 * [ ] Light Sensor
