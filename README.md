@@ -54,6 +54,9 @@
         * Recommend add an ESD protection diode (cannot work with HVPP). Alternatively, a Zener diode can be used to limit the Reset voltage relative to GND (highly recommended in noisy environments).
     * 3.1 External RESET Switch
         * It is important to add a series resistance (330R)
+    * 4.1 SPI Programming Interface
+        * A few ISP programmers are powered by the target power supply. In this way they easily adapt to the correct voltage level of the target board.
+        * Other ISP programmers, such as STK600, can alternatively power the target board via the VTG line. In such a case, it is important that the power supply on the target is not switched on.
 
 * Crystal Oscaillator 16MHz
     * Table 8.3 - 12-22 pF
