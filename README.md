@@ -1,11 +1,10 @@
-# NTU-BIME-INSECT-Lab-PCB-Homework
+# NTU-BEM-Lab Homework-A PCB
 
 ## Todoist
 * [x] Replace Power Connector
 * [x] Replace all SMT to 0603
 * [x] Digital Vcc Decoupling Capacitor
 * [ ] Analog Avcc Decoupling Capacitor
-* [ ] XBee
 * [x] Buck Converter ~~LM2576~~ LM2596
 * [ ] Light Sensor
 * [ ] Add Border on PCB
