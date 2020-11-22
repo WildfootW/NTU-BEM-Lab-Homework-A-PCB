@@ -4,9 +4,10 @@
 * [x] Replace Power Connector
 * [x] Replace all SMT to 0603
 * [x] Digital Vcc Decoupling Capacitor
-* [ ] Analog Avcc Decoupling Capacitor
 * [x] Buck Converter ~~LM2576~~ LM2596
-* [ ] Light Sensor
+* [x] Analog Avcc Decoupling Capacitor
+* [x] Light Sensor
+* [x] Add PhotoCell
 * [ ] Add Border on PCB
 
 ## Componenet
