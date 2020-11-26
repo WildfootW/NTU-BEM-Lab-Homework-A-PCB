@@ -40,8 +40,10 @@
     * ~~LM2576~~
         * [Datasheet](https://datasheet.ciiva.com/6597/lm2576hv-6597211.pdf?src-supplier=Digi-Key)
         * ELECTRICAL CHARACTERISTICS LM2576-3.3 - 6V ≤ VIN ≤ 40V, 0.5A ≤ ILOAD ≤ 3A
-    * LM2596
+    * ~~LM2596~~
         * [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf)
+        * Diode is too big ([1N5820](https://www.mouser.tw/ProductDetail/ON-Semiconductor/1N5820G?qs=y2kkmE52mdMaZomtu%252BD%252BfQ%3D%3D))
+        * ![](https://i.imgur.com/l2wso2I.png)
     * AMS1117 (LM1117)
         * [Datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
 
