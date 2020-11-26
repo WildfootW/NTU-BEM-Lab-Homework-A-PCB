@@ -15,43 +15,42 @@
 ## Componenet
 * ATmega328P
     * [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf)
-    * AD Library from Manufacturer Part Search
 
 * XBee
     * [Datasheet](https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Datasheet.pdf)
-    * AD Library from SnapEDA
 
 * DS18B20
     * [Datasheet](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf)
-    * AD Library from Manufacturer Part Search
     * [1-Wire Hub](http://pvlng.com/1-Wire_Hub)
 
 * DHT22
     * [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf)
-    * [AD Library from SnapEDA](https://www.snapeda.com/parts/DHT22/Aosong%20Electronics/view-part/?ref=search&amp;t=DHT22&amp;company=&amp;welcome=home)
 
 * [Common Light Sensors](https://www.intorobotics.com/common-budgeted-arduino-light-sensors/)
     * ~~VT90N1 (Light Dependent Resistor)~~
         * [Datasheet](https://datasheet.ciiva.com/1249/919043-1249344.pdf?src-supplier=Element14)
-        * AD Library from Manufacturer Part Search
     * ~~TSL235R~~
         * [Datasheet](https://datasheet.ciiva.com/1176/323585-1176657.pdf?src-supplier=Newark)
-        * AD Library from Manufacturer Part Search
     * PDV-P8103
         * [Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P8103.pdf)
 
 * Power Supply
     * [AMS1117-3.3 over-heating and blow up way below max current](https://electronics.stackexchange.com/questions/274510/ams1117-3-3-over-heating-and-blow-up-way-below-max-current)
+    * [5V Voltage Regulator, LM7805 vs LM2940 vs LM1117 vs AMS1117](https://jpralves.net/post/2015/05/19/5v-voltage-regulator.html)
     * ~~LM2576~~
         * [Datasheet](https://datasheet.ciiva.com/6597/lm2576hv-6597211.pdf?src-supplier=Digi-Key)
-        * AD Library from Manufacturer Part Search
         * ELECTRICAL CHARACTERISTICS LM2576-3.3 - 6V ≤ VIN ≤ 40V, 0.5A ≤ ILOAD ≤ 3A
     * LM2596
         * [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf)
     * AMS1117 (LM1117)
         * [Datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
 
-## Schematic Reference
+# Reference
+## Libraries
+* [Celestial Altium Library](https://altiumlibrary.com/)
+* [SamacSys](https://www.samacsys.com/altium-designer-library-instructions/)
+
+## Component Considerations
 ### ATmega328P
 * [Electrical Engineering - What is the minimal set of parts for a circut with this AVR microcontroller?](https://electronics.stackexchange.com/questions/53713/what-is-the-minimal-set-of-parts-for-a-circut-with-this-avr-microcontroller)
 * [AVR® Microcontroller Hardware Design Considerations](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en591472)
@@ -76,6 +75,11 @@
     * Table 8.3 - 12-22 pF
 * debugWIRE
 * Serial Interface
+
+## Others Considerations
 ### SMD / SMT
 * [Difference between 1206, 0805 and 0603 SMD resistor](https://electronics.stackexchange.com/questions/375637/difference-between-1206-0805-and-0603-smd-resistor)
     * > If you need to hand solder them, I suggest not going too small,e specially if you do not have any experience. 0603 should be fine for almost everyone, 0805 even more so, 1206 is a huge beast you can solder with your hands tied and your eyes closed.
+### Trace Rules
+* [PICKING THE RIGHT TRACE WIDTH FOR YOUR NEXT PCB DESIGN](https://bayareacircuits.com/picking-the-right-trace-width-for-your-next-pcb-design/#:~:text=While%200.003%E2%80%9D%20can%20be%20a,voltage%20traces%20should%20be%20larger.)
+
