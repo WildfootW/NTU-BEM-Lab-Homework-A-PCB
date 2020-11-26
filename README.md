@@ -9,34 +9,47 @@
 * [x] Light Sensor
 * [x] Add PhotoCell
 * [ ] Add Border on PCB
+* [ ] Change DHT22 to Header
+* [ ] Add Screw Hole
 
 ## Componenet
 * ATmega328P
     * [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf)
     * AD Library from Manufacturer Part Search
+
 * XBee
     * [Datasheet](https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Datasheet.pdf)
     * AD Library from SnapEDA
+
 * DS18B20
     * [Datasheet](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf)
     * AD Library from Manufacturer Part Search
     * [1-Wire Hub](http://pvlng.com/1-Wire_Hub)
+
 * DHT22
     * [Datasheet](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf)
     * [AD Library from SnapEDA](https://www.snapeda.com/parts/DHT22/Aosong%20Electronics/view-part/?ref=search&amp;t=DHT22&amp;company=&amp;welcome=home)
+
 * [Common Light Sensors](https://www.intorobotics.com/common-budgeted-arduino-light-sensors/)
-* ~~VT90N1 (Light Dependent Resistor)~~
-    * [Datasheet](https://datasheet.ciiva.com/1249/919043-1249344.pdf?src-supplier=Element14)
-    * AD Library from Manufacturer Part Search
-* TSL235R
-    * [Datasheet](https://datasheet.ciiva.com/1176/323585-1176657.pdf?src-supplier=Newark)
-    * AD Library from Manufacturer Part Search
-* ~~LM2576~~
-    * [Datasheet](https://datasheet.ciiva.com/6597/lm2576hv-6597211.pdf?src-supplier=Digi-Key)
-    * AD Library from Manufacturer Part Search
-    * ELECTRICAL CHARACTERISTICS LM2576-3.3 - 6V ≤ VIN ≤ 40V, 0.5A ≤ ILOAD ≤ 3A
-* LM2596
-    * [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf)
+    * ~~VT90N1 (Light Dependent Resistor)~~
+        * [Datasheet](https://datasheet.ciiva.com/1249/919043-1249344.pdf?src-supplier=Element14)
+        * AD Library from Manufacturer Part Search
+    * ~~TSL235R~~
+        * [Datasheet](https://datasheet.ciiva.com/1176/323585-1176657.pdf?src-supplier=Newark)
+        * AD Library from Manufacturer Part Search
+    * PDV-P8103
+        * [Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P8103.pdf)
+
+* Power Supply
+    * [AMS1117-3.3 over-heating and blow up way below max current](https://electronics.stackexchange.com/questions/274510/ams1117-3-3-over-heating-and-blow-up-way-below-max-current)
+    * ~~LM2576~~
+        * [Datasheet](https://datasheet.ciiva.com/6597/lm2576hv-6597211.pdf?src-supplier=Digi-Key)
+        * AD Library from Manufacturer Part Search
+        * ELECTRICAL CHARACTERISTICS LM2576-3.3 - 6V ≤ VIN ≤ 40V, 0.5A ≤ ILOAD ≤ 3A
+    * LM2596
+        * [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf)
+    * AMS1117 (LM1117)
+        * [Datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
 
 ## Schematic Reference
 ### ATmega328P
