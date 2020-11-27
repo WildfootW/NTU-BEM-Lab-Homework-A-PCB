@@ -4,7 +4,7 @@
 * [x] Replace Power Connector
 * [x] Replace all SMT to 0603
 * [x] Digital Vcc Decoupling Capacitor
-* [ ] Buck Converter ~~LM2576~~ ~~LM2596~~ LM1117
+* [x] Buck Converter ~~LM2576~~ ~~LM2596~~ LM1117
 * [x] Analog Avcc Decoupling Capacitor
 * [x] Light Sensor
 * [x] Add PhotoCell
@@ -87,6 +87,7 @@
 ### SMD / SMT
 * [Difference between 1206, 0805 and 0603 SMD resistor](https://electronics.stackexchange.com/questions/375637/difference-between-1206-0805-and-0603-smd-resistor)
     * > If you need to hand solder them, I suggest not going too small,e specially if you do not have any experience. 0603 should be fine for almost everyone, 0805 even more so, 1206 is a huge beast you can solder with your hands tied and your eyes closed.
+* 0603(0.06 inch * 0.03 inch) == 1603 (1.6 mm * 0.8 mm)
 ### Trace Rules
 * [PICKING THE RIGHT TRACE WIDTH FOR YOUR NEXT PCB DESIGN](https://bayareacircuits.com/picking-the-right-trace-width-for-your-next-pcb-design/#:~:text=While%200.003%E2%80%9D%20can%20be%20a,voltage%20traces%20should%20be%20larger.)
 
