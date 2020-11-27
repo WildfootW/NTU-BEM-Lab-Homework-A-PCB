@@ -8,9 +8,9 @@
 * [x] Analog Avcc Decoupling Capacitor
 * [x] Light Sensor
 * [x] Add PhotoCell
-* [ ] Add Border on PCB
+* [x] Add Border on PCB
 * [x] Change DHT22 to Header
-* [ ] Add Screw Hole
+* [x] Add Screw Hole
 
 ## Componenet
 * ATmega328P
