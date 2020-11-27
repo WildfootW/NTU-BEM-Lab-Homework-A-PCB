@@ -4,12 +4,12 @@
 * [x] Replace Power Connector
 * [x] Replace all SMT to 0603
 * [x] Digital Vcc Decoupling Capacitor
-* [x] Buck Converter ~~LM2576~~ LM2596
+* [ ] Buck Converter ~~LM2576~~ ~~LM2596~~ LM1117
 * [x] Analog Avcc Decoupling Capacitor
 * [x] Light Sensor
 * [x] Add PhotoCell
 * [ ] Add Border on PCB
-* [ ] Change DHT22 to Header
+* [x] Change DHT22 to Header
 * [ ] Add Screw Hole
 
 ## Componenet
@@ -42,10 +42,15 @@
         * ELECTRICAL CHARACTERISTICS LM2576-3.3 - 6V ≤ VIN ≤ 40V, 0.5A ≤ ILOAD ≤ 3A
     * ~~LM2596~~
         * [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf)
-        * Diode is too big ([1N5820](https://www.mouser.tw/ProductDetail/ON-Semiconductor/1N5820G?qs=y2kkmE52mdMaZomtu%252BD%252BfQ%3D%3D))
+        * Diode is too big ([1N5820](https://www.mouser.tw/ProductDetail/ON-Semiconductor/1N5820G?qs=y2kkmE52mdMaZomtu%252BD%252BfQ%3D%3D)) (Can use 2N4001 instead of)
+        * Overkill
+        * 4.75 V ≤ VIN ≤ 40 V, 0.2 A ≤ ILOAD ≤ 3 A
         * ![](https://i.imgur.com/l2wso2I.png)
-    * AMS1117 (LM1117)
+    * ~~AMS1117~~
         * [Datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
+        * Out of Stock
+    * LM1117
+        * [Datasheet](https://www.ti.com/lit/ds/symlink/lm1117.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.tw%2F&distId=26)
 
 # Reference
 ## Libraries
