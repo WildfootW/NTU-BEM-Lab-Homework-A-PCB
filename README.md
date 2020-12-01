@@ -11,6 +11,7 @@
 * [x] Add Border on PCB
 * [x] Change DHT22 to Header
 * [x] Add Screw Hole
+* [ ] Add Test LED
 
 ## Componenet
 * ATmega328P
