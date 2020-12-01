@@ -1,5 +1,6 @@
 # NTU-BEM-Lab Homework-A PCB
-
+![](https://raw.githubusercontent.com/WildfootW/NTU-BEM-Lab_Homework-A_PCB/main/Images/Top_View.jpg)
+![](https://raw.githubusercontent.com/WildfootW/NTU-BEM-Lab_Homework-A_PCB/main/Images/Bottom_View.jpg)
 ## Todoist
 * [x] Replace Power Connector
 * [x] Replace all SMT to 0603
