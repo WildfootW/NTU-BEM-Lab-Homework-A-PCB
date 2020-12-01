@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: W:\workplace\Altium\NTU-BIME-INSECT-Lab-PCB-Homework\PCB1.PcbDoc
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\NTU-BEM-Lab_Homework-A_PCB\PCB1.PcbDoc
 RuleKind=Width|RuleName=Width_3.3V|Scope=Board|Minimum=20.00
 RuleKind=Width|RuleName=Width_5V|Scope=Board|Minimum=20.00
 RuleKind=Clearance|RuleName=Clearance 5V|Scope=Board|Minimum=10.00
