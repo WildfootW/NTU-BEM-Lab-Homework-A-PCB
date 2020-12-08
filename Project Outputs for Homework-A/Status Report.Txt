@@ -1,13 +1,38 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Homework-A.PrjPcb]
-   Generated File[PCB1-RoundHoles.TXT]
-   Generated File[PCB1-SlotHoles.TXT]
-   Generated File[PCB1.LDP]
-   Generated File[PCB1.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Homework-A.PrjPcb]
+   Generated File[PCB1.GTO]
+   Generated File[PCB1.GTP]
+   Generated File[PCB1.GTS]
+   Generated File[PCB1.GTL]
+   Generated File[PCB1.GBL]
+   Generated File[PCB1.GBS]
+   Generated File[PCB1.GBP]
+   Generated File[PCB1.GBO]
+   Generated File[PCB1.GM1]
+   Generated File[PCB1.GM2]
+   Generated File[PCB1.GM3]
+   Generated File[PCB1.GM5]
+   Generated File[PCB1.GM13]
+   Generated File[PCB1.GM15]
+   Generated File[PCB1.GM16]
+   Generated File[PCB1.GM20]
+   Generated File[PCB1.GM21]
+   Generated File[PCB1.GM23]
+   Generated File[PCB1.GM24]
+   Generated File[PCB1.GKO]
+   Generated File[PCB1.GPT]
+   Generated File[PCB1.GPB]
+   Generated File[PCB1.1]
+   Generated File[PCB1.GML]
+   Generated File[PCB1.GD1]
+   Generated File[PCB1.GG1]
+   Generated File[PCB1.RUL]
+   Generated File[PCB1.EXTREP]
+   Generated File[PCB1.REP]
 
 
-Files Generated   : 4
+Files Generated   : 29
 Documents Printed : 0
 
-Finished Output Generation At 8:08:53 PM On 12/1/2020
+Finished Output Generation At 2:06:11 PM On 12/8/2020
