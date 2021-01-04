@@ -2,6 +2,12 @@
 ![](https://raw.githubusercontent.com/WildfootW/NTU-BEM-Lab_Homework-A_PCB/main/Images/Top_View.jpg)
 ![](https://raw.githubusercontent.com/WildfootW/NTU-BEM-Lab_Homework-A_PCB/main/Images/Bottom_View.jpg)
 ## Todoist
+* [ ] Shrink Screw Hole Diameter
+* [ ] Move Photo Resistor away from XBee
+* [ ] Increase LED Size
+* [ ] Indentation DHT22 Socket
+
+### Version 1.0
 * [x] Replace Power Connector
 * [x] Replace all SMT to 0603
 * [x] Digital Vcc Decoupling Capacitor
