@@ -6,6 +6,7 @@
 * [ ] Move Photo Resistor away from XBee
 * [ ] Increase LED Size
 * [ ] Indentation DHT22 Socket
+* [ ] Critical: Connect ATmega328P VCC to VCC
 
 ### Version 1.0
 * [x] Replace Power Connector
